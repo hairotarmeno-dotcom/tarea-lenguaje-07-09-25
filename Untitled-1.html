@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>tienda de alcohol</title>
+    <title>Espíritu Líquido</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="background-color: lightslategrey;">
+
+<nav></nav>
 
 <h3>CONFIRMACION DE EDAD</h3>
 
@@ -25,13 +27,14 @@
 
 <p>VODKAS</p>
 <nav id="navegacion">
-  <a href="#putin">Vodka Rusos</a>
+  <a href="#putin">Vodka Rusos</a>&emsp;
   <a href="#Marbaltico">vodka Polaco</a>
 </nav>
 
 <p>GIN Y GINEBRAS</p>
 <nav id="navegacion">
   <a href="#barriorojo">ginebra holandesa</a>
+  <a href="#Rey">gin Ingles</a>
 </nav>
 
 <H2>TABLA DE PRECIOS</H2>
@@ -39,21 +42,21 @@
 <table border="3px" style="background-color: brown;">
 <h4 id="centeno">Whiskey Americano </h4>
     <tr>
-      <th>producto-whiskey Americano</th>
+      <th>producto-whiskey Americano</th>       
       <th>precio</th>
       <th>descripcion</th>
       <th>imagen del producto</th>
     </tr>
 
     <tr>
-      <td>Jacks danie´l</td>
+        <td><nav> <a href="#america">Jack Daniel´s</a></nav></td>
       <td>110 S/</td>
       <td>bebida espirituosa con notas de vainilla, caramelo y roble tostado </td>  
       <td><img src="jackdanie´l-tarea.jpg" alt="imagen no carga" width="100px"></td>
     </tr>
 
     <tr>
-      <td>Jim Beam White</td>
+      <td> <nav> <a href="#bourbon">Jim Beam White</a></nav>  </td>
       <td>80 S/</td>
       <td>whiskey de categoria bourbon con notas a vainilla, </td>
       <td><img src="jim beam white.webp" alt="iamgen no carga" width="100px"></td>
@@ -66,7 +69,7 @@
 <table border="3px"  style="background-color: wheat;" >   
 
    <tr>
-      <td>producto-whisky Escoces</td>
+      <td> <a href=""></a></td>
       <td>precio</td>
       <td>descripcion</td>
       <td>iamgen del producto</td>
@@ -88,9 +91,15 @@
 
     </tr>
 
-</table>
+</table> <br>
+
+ <p><label for="cantidad" id="america">cantidad <input type="number" id="monto" min="1" max="50" >  </label> </p> <br> 
+ <p><label for="cantidad" id="bourbon">cantidad <input type="number" id="monto" min="1" max="50" >  </label> </p> <br> 
+ <button type="submit" style="font-size: 25px;" >Enviar</button> <br> <br>
 
 <a href="#inicio">volver al inicio</a>
+
+<!--buscar una forma de tener dos enlace para un solo punto-->
 
 <h4>SECCION DE VODKA</h4>
 <p id="putin">Vodaka rusos</p>
@@ -144,6 +153,10 @@
   </tr>
 </table>
 
+ <p><label for="cantidad">cantidad  <input type="number" id="monto" min="1" max="50" >  </label> </p> <br> 
+
+ <button type="submit" style="font-size: 25px;" >Enviar</button> <br> <br>
+
 <a href="#inicio">volver al inicio</a>
 
 <h4>GIN Y GINEBRAS</h4>
@@ -175,7 +188,7 @@
 
 
 
-<p> ginebras Inglesas</p>
+<p id="Rey"> gin Inglesas</p>
 <table border="3px" style="background-color: rgb(115, 194, 177);">
 
    <tr>
@@ -201,8 +214,11 @@
 
 </table>
 
+ <p><label for="cantidad">cantidad  <input type="number" id="monto" min="1" max="50" >  </label> </p> <br> 
 
+ <button type="submit" style="font-size: 25px;" >Enviar</button> <br> <br>
 
+<a href="#inicio">volver al inicio</a>
 
 
 
