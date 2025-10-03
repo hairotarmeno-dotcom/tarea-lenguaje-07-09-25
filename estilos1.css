@@ -2,31 +2,60 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .formulario {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: white;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(105, 166, 216);
+    padding: 10px 15px 25px;
+    text-align: center;
+    border-radius: 30px;
 }
 
 .formulario h1 {
-    text-align: center;
-    font-size: 23px;
-    padding: 0 0 20px 0;
-    border-bottom: 3px solid rgb(105, 196, 231);
-    background-color: white;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;   
 }
 
-.button {
-    position: absolute;
-    font-family: Georgia,;
+
+.cuadroREG {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #299fce ;
+    color:rgb(238, 237, 240);
+    margin: 15px 0;
+    border-radius: 15px;
+    padding: 18px;
+    box-shadow: 0 0 10px rgb(108, 108, 218);
 }
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;   
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    font-size: 23px;
+    background-color: rgb(186, 233, 217);
+    color: darkcyan;
+    height: 40px;
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+
+
+}
+
 
